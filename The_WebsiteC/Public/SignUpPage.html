@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400&family=Overpass:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Main.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-Styling">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-main" aria-expanded="false">
+				<span class="sr-only">toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="SplashPage.html" class="navbar-brand "> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> BIT Solutions</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-nav-main">
+			<ul class="nav navbar-nav">
+				<li><a href="about.html">About</a></li>
+				<li><a href="Contact_page.html">Contact Us</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="SignUpPage.html"> <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Sign Up</a></li>
+				<li><a href="login.html"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+	<h1 class="center">Sign Up</h1>
+	<div class="container" >
+		<div class="row">
+			<div id="centerForm">
+				<form action="sign_up" method="POST" class="login_form">
+  					<div class="form-group" >
+   						 <label for="exampleInputEmail1">Email address</label>
+   						 <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+   						 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  					</div>
+  					<div class="form-group">
+  					 		<label for="exampleInputUsername1">Username</label>
+    					<input name="username" type="username" class="form-control" id="exampleInputUsername1 placeholder="Username" required>
+  					</div>
+
+  					<div class="form-group">
+    					<label for="exampleInputPassword1">Password</label>
+   						 <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+  					</div>
+  					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>
