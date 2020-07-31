@@ -1,0 +1,82 @@
+h1{
+
+}
+
+body{
+	background: white;
+	padding-top: 70px;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #465362;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+
+.center{
+	text-align: center;
+}
+
+#splash {
+	background:	url("https://images.unsplash.com/photo-1517663404855-6f96c7aa20e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Overpass', sans-serif;
+	color: #465362;
+
+}
+
+#login_form{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	
+	
+}
+#newAccount{
+	text-align: center;
+	
+
+}
+
+.navbar-Styling{
+	color: #E5ECF4;
+	background: #465362;
+	font-family: 'Overpass', sans-serif;
+}
+
+.jumbotron{
+	background: : #E5ECF4;
+	color: #465362;
+	font-family: 'Overpass', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#Splash_content{
+	color: #465362;
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#Splash_content h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+#Splash_content button {
+	color: #465362;
+}
+#Splash_content hr {
+	color: #465362;
+}
+
